@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(248, 196, 150);
+    font-family: 'Dancing Script';
+    
+    color: rgb(107, 143, 107);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    letter-spacing: 2px;
+}
+.weddingCount {
+    margin: 30px;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.weddingCount div {
+    margin:  15px;
+    font-size: 3rem;
+    font-weight: 400;
+    margin-top: -25px;
+    position: relative;
+    width: 100px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+.weddingCount div::before {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    font-size: .5em;
+    line-height: 40px;
+    
+    width: 100%;
+    height: 40px;
+}
+
+.weddingCount #days::before{
+    content: "days";
+    font-size: .50em;
+
+}
+.weddingCount #hours::before{
+    content: "hours";
+    font-size: .50em;
+
+}
+.weddingCount #minutes::before{
+    content: "minutes";
+    font-size: .50em;
+
+}
+.weddingCount #seconds::before{
+    content: "seconds";
+    font-size: .50em;
+
+}
+
+
