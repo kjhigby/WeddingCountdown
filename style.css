@@ -53,22 +53,22 @@ h1 {
 
 .weddingCount #days::before{
     content: "days";
-    font-size: .40em;
+    font-size: .35em;
 
 }
 .weddingCount #hours::before{
     content: "hours";
-    font-size: .40em;
+    font-size: .35em;
 
 }
 .weddingCount #minutes::before{
     content: "minutes";
-    font-size: .40em;
+    font-size: .35em;
 
 }
 .weddingCount #seconds::before{
     content: "seconds";
-    font-size: .40em;
+    font-size: .35em;
 
 }
 
